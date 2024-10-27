@@ -1,0 +1,155 @@
+body {
+    background: radial-gradient(circle, #001f1f, #000000);
+    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png'), url('https://www.transparenttextures.com/patterns/stardust.png');
+    background-repeat: repeat, repeat;
+    color: #f0f0f0;
+    font-family: 'Orbitron', sans-serif;
+    background-attachment: fixed;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: rgba(0, 30, 0, 0.7);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 255, 150, 0.7);
+}
+
+h1 {
+    text-align: center;
+    color: #00ff99;
+    text-shadow: 0 0 15px #00ff99, 0 0 30px #00ff99, 0 0 45px #00ff99;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    background-color: #333;
+    border: 1px solid #333;
+    color: #ffffff;
+    transition: all 0.03s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #00ff99;
+    box-shadow: 0px 0px 10px #00ff99;
+    background-color: #777;
+}
+
+.form-control::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+label {
+    color: #00ff99;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-success {
+    background-color: #00ff99;
+    border-color: #00ff99;
+    color: #000;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.btn-success:hover {
+    background-color: #00cc7a;
+    border-color: #00cc7a;
+    box-shadow: 0px 0px 20px #00ff99;
+}
+
+.btn-info {
+    background-color: #0059b3;
+    border-color: #0059b3;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-info:hover {
+    background-color: #004d99;
+    border-color: #004d99;
+    box-shadow: 0px 0px 20px #0059b3;
+}
+
+select.form-control option {
+    background-color: #666;
+    color: #ffffff;
+}
+
+select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDBGRjk2IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMGgyNHYyNEgwVjB6bTkgMTAuOTIybDQuMDAzIDMuOTk3aC0xMnYtMmgyMXYyem0tOSA1LjA3OHYtMnYtMmgtMnYyeiIvPjwvc3ZnPg==');
+    background-position: right 10px center;
+    background-size: 12px;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+}
+
+input, select, button {
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+.modal-content {
+    background-color: rgba(0, 30, 0, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 255, 150, 0.7);
+}
+
+.modal-header, .modal-footer {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-title {
+    color: #00ff99;
+    font-weight: bold;
+    text-shadow: 0 0 10px #00ff99;
+    font-size: 1.5rem;
+}
+
+.modal-body {
+    color: #f0f0f0;
+}
+
+.btn-primary {
+    background-color: #00ff99;
+    border-color: #00ff99;
+    color: #000;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #00cc7a;
+    border-color: #00cc7a;
+    box-shadow: 0px 0px 20px #00ff99;
+}
+
+.btn-close {
+    color: #f0f0f0;
+    opacity: 1;
+    background: transparent;
+}

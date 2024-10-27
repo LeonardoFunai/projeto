@@ -1,0 +1,196 @@
+
+body {
+    background: radial-gradient(circle, #001f1f, #000000); 
+    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png'), url('https://www.transparenttextures.com/patterns/stardust.png');
+    background-repeat: repeat, repeat;
+    color: #f0f0f0;
+    font-family: 'Orbitron', sans-serif; 
+    background-attachment: fixed; 
+}
+
+
+
+
+.container {
+    margin-top: 50px;
+    background-color: rgba(0, 30, 0, 0.7); 
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 255, 150, 0.7); 
+}
+
+
+h1 {
+    text-align: center;
+    color: #00ff99; 
+    text-shadow: 0 0 15px #00ff99, 0 0 30px #00ff99, 0 0 45px #00ff99;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+
+.btn-primary {
+    background-color: #00ff99;
+    border-color: #00ff99;
+    color: #000;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 20px #00ff99;
+}
+
+.btn-primary:hover {
+    background-color: #00cc7a;
+    border-color: #00cc7a;
+    box-shadow: 0px 0px 30px #00ff99;
+}
+
+
+.form-control {
+    background-color: #222;
+    border: 2px solid #00ff99;
+    color: #fff; 
+    transition: all 0.3s ease-in-out;
+}
+
+
+.form-control::placeholder {
+    color: #aaa; 
+    opacity: 1; 
+}
+
+
+.form-control:focus {
+    border-color: #00ff99;
+    box-shadow: 0px 0px 20px #00ff99;
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+.btn-outline-success {
+    color: #00ff99;
+    border-color: #00ff99;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 15px #00ff99;
+}
+
+.btn-outline-success:hover {
+    background-color: #00ff99;
+    color: #000;
+    border-color: #00cc7a;
+    box-shadow: 0px 0px 25px #00ff99;
+}
+
+
+.table {
+    color: #f0f0f0;
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px #00ff99;
+    margin-top: 20px;
+}
+
+.table thead {
+    background-color: #00ff99;
+    color: #1b1f24;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #3b4049;
+}
+
+
+.btn-success {
+    background-color: #00cc7a;
+    border: none;
+    box-shadow: 0px 0px 10px #00cc7a;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #009966;
+    box-shadow: 0px 0px 15px #00cc7a;
+}
+
+.btn-danger {
+    background-color: #ff0066;
+    border: none;
+    box-shadow: 0px 0px 10px #ff0066;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-danger:hover {
+    background-color: #cc0052;
+    box-shadow: 0px 0px 15px #ff0066;
+}
+
+
+.modal-content {
+    background-color: #222;
+    color: #f0f0f0;
+    border: 2px solid #00ff99;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #00ff99;
+}
+
+.modal-header {
+    border-bottom: 1px solid #00ff99;
+}
+
+.modal-footer {
+    border-top: 1px solid #00ff99;
+}
+
+.btn-secondary {
+    background-color: #555;
+    border: none;
+    box-shadow: 0px 0px 10px #555;
+}
+
+.btn-secondary:hover {
+    background-color: #333;
+    box-shadow: 0px 0px 20px #555;
+}
+
+
+.alert {
+    background-color: #222;
+    color: #f0f0f0;
+    border: 2px solid #00ff99;
+    box-shadow: 0px 0px 15px #00ff99;
+}
+
+.btn-close {
+    filter: brightness(0.7);
+}
+
+.btn-close:hover {
+    filter: brightness(1);
+}
+
+
+input, select, button {
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .table {
+        font-size: 0.9rem;
+    }
+}
