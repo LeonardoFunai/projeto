@@ -1,7 +1,7 @@
 <?php
 include "conexao.php";
 
-// Captura os dados do formulário
+// Captura os dados do formulário.
 $tamanho = $_POST['tamanho'] ?? '';
 $cor = $_POST['cor'] ?? '';
 $local_queda = $_POST['local_queda'] ?? '';
